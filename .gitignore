@@ -1,0 +1,35 @@
+# Terraform state files (contain sensitive infrastructure data)
+*.tfstate
+*.tfstate.backup
+
+# Terraform working directory (provider binaries, cached modules)
+**/.terraform/
+
+# Terraform lock file (optional: remove this line if you want to commit it)
+# .terraform.lock.hcl
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Terraform plan output files
+*.tfplan
+*.plan
+
+# Crash log files
+crash.log
+crash.*.log
+
+# SSH private keys
+*.pem
+modules/key/client_key
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
