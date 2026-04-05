@@ -1,0 +1,28 @@
+# Terraform files
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Keep lock file for consistent provider versions (optional - remove if you want to ignore)
+# .terraform.lock.hcl
+
+# SSH keys - IMPORTANT: never commit private keys
+ec2-key
+ec2-key.pub
+*.pem
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
