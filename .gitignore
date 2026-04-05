@@ -28,7 +28,7 @@ modules/key/client_key
 .DS_Store
 **/.DS_Store
 
-# Editor directories and files
+
 .idea/
 .vscode/
 *.swp
